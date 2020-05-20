@@ -1,0 +1,2 @@
+// Ritorna una lista di elementi che esiste in entrambi gli array, usando una funzione comparatrice
+export const intersectionWith = (a: any[], b: any[], comp: (a: any, b: any) => boolean): any[] => a.filter(x => b.findIndex(y => comp(x, y)) !== -1)
