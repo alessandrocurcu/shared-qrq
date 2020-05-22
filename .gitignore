@@ -1,7 +1,8 @@
 
 # Created by https://www.gitignore.io/api/git,macos,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=git,macos,visualstudiocode
-main.js
+dist
+node_modules
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false

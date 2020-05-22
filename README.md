@@ -1,0 +1,1 @@
+* Vai in un altro proggetto e `npm i <absolute path to this folder`
