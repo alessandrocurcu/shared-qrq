@@ -4,9 +4,11 @@
   "description": "",
   "main": "dist/main.js",
   "types": "main.d.ts",
+  "type": "module",
   "scripts": {
     "build": "tsc -d && npm run lint",
-    "lint": "eslint --fix dist/main.js"
+    "lint": "eslint --fix dist/main.js",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^25.2.3",
@@ -16,7 +18,8 @@
     "eslint-plugin-prettier": "^3.1.3",
     "jest": "^26.0.1",
     "prettier": "^2.0.5",
-    "ts-jest": "^26.0.0"
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
   },
   "engines": {
     "node": ">=13.13.0",
