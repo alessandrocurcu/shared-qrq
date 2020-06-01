@@ -13,3 +13,6 @@ export const dropWhile = (arr: any[], fn: (a: any) => boolean) => {
   while (arr.length > 0 && !fn(arr[0])) arr = arr.slice(1);
   return arr;
 }
+
+// Ritorna l'ultimo valore per il quale la funzione fornita ritorna un valore truthu
+export const findLast = (arr: any[], fn: (el: any, i: number, arr: any[]) => any[]): any | undefined => arr.filter(fn).pop()
